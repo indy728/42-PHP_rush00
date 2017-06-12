@@ -1,0 +1,467 @@
+html, body, div, span,h1, h2, h3, h4, h5, h6, p, a, b, u, i, center, ol, ul, li, form, label, 
+table, tbody, tfoot, thead, tr, th, td,menu, font {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	font-size:12px;
+	line-height:1.75;
+	font-family:'Lato',sans-serif; background:#ffffff;
+}
+input, button, textarea {
+	font-size:16px;
+	line-height:1.75;
+	font-family:'Lato',sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height:1.75;
+	margin-top:20px;
+	padding-left:10px;
+}
+h1, h2 {
+	color:#000000;
+	border-bottom:1px
+	solid #bbbbbb;
+}
+h1 {
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+	padding:0;
+}
+h1:first-child {
+	margin-top:0;
+}
+h2 {
+	font-size:24px;
+	font-weight:bold;
+	text-align:left;
+}
+h3 {
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+}
+p {
+	font-size:14px;
+	margin-top:20px;
+	padding:0 10px;
+}
+h3 + p, h3 + ul, h3 + ol, h4 + p, h4 + ul, h4 + ol, h5 + p, h5 + ul, h5 + ol, h6 + p, h6 + ul, h6 + ol {
+	margin-top:5px;
+}
+ol {
+	list-style-type:decimal;
+	padding-left:40px;
+	margin-top:20px;
+}
+ul {
+	list-style-type:disc;
+	padding-left:40px;
+	margin-top:20px;
+}
+a {
+	color:#000000;
+	text-decoration:none;
+}
+#page_wrap {
+	margin:0;
+	padding:0;
+	min-height:100%;
+}
+#banner_wrap {
+	float:left;
+	clear:both;
+	min-width:100%;
+	z-index:2; 
+	position:relative;
+	border-bottom: 1px solid #3b4044;
+}
+#logo {
+	display:block;
+	width:286px;
+	float: left;
+	position:relative;
+}
+#home_link {
+	display:block;
+	background:url("../img_src/logo_white.png") no-repeat 0 50%;
+	background-size:286px 120px;
+	overflow:hidden;
+	text-indent:-9999px;
+	height:200px;
+}
+#banner_center {
+	width:300px;
+	margin:0px auto;
+	height:200px;
+	position:relative;
+}
+#banner {
+	width:1000px;
+	margin:0px auto;
+	height:200px;
+	position:relative;
+}
+#banner_bg {
+	clear:both;
+	float:left;
+	min-width:100%;
+	height:200px;
+	background-color:#3b4044;
+	background-image:-webkit-gradient(linear, left top, left bottom, from( #cccccc ), to( #3b4044 ));
+	background-image:-webkit-linear-gradient( #cccccc , #3b4044 );
+	background-image:-moz-linear-gradient( #cccccc , #3b4044 );
+	background-image:-ms-linear-gradient( #cccccc , #3b4044 );
+	background-image:-o-linear-gradient( #cccccc , #3b4044 );
+	background-image:linear-gradient( #cccccc , #3b4044 );
+}
+#banner_right {
+	width:200px;
+	display:block;
+	float:right;
+}
+#account {
+	margin:0px
+	auto;
+	height:28px;
+	color:#ffffff;
+}
+#login {
+	text-transform: uppercase;
+	float: right;
+	padding: 7px 0 0 0;
+}
+#login a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#header_cart {
+	display:block;
+	height:26px;
+	width:175px;
+	line-height:26px;
+	padding:5px 85px 5px 0px;
+	background-color:#0066b3;
+	color:#ffffff;
+	font-size:11px;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+
+#main_wrap {
+	position:relative;
+	z-index:1;
+	float:left;
+	clear:both;
+	min-width:100%;
+	background:url("../img_src/brick_bg/03.jpg");
+	background-size: cover;*/
+	border-top: 1px solid #eeeeee;
+}
+#main { 
+	width:1000px;
+	margin:0px auto;
+	background-color:#ffffff;
+	background-image:-webkit-gradient(linear, left top, left bottom, from( #cccccc ), to( #3b4044 ));
+	background-image:-webkit-linear-gradient( #cccccc , #ffffff );
+	background-image:-moz-linear-gradient( #cccccc , #ffffff );
+	background-image:-ms-linear-gradient( #cccccc , #ffffff );
+	background-image:-o-linear-gradient( #cccccc , #ffffff );
+	background-image:linear-gradient( #cccccc , #ffffff );
+	box-shadow:0px 0px 10px rgba(0,0,0,.25);
+}
+#content_wrap {
+	position:relative;
+	z-index:2;
+	float:right;
+	width:780px;
+	padding:0 10px 10px;
+}
+#featured {
+	min-height: 700px;
+}
+#lnav {
+	position:relative;
+	z-index:3;
+	float:left;
+	width:199px;
+	padding:0 1px 20px 0;
+}
+.lnav_heading {
+	color:#000000;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:20px 0 0 30px;
+}
+.lnav_heading a {
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+.lnav_heading a:hover {
+	color:#000000;
+}
+.lnav_heading.lnav_specials, .lnav_heading.lnav_specials a {
+	color:#000000;
+	font-style:italic; 
+	font-weight:normal;
+}
+.lnav_heading.lnav_specials a:hover {
+	font-weight:bold;
+}
+.lnav_section {
+	padding:0;
+	margin:0 0 0 30px;
+	line-height:1.75;
+	list-style:none;
+}
+.lnav_section a {
+	color:#000000;
+	text-decoration:none;
+}
+.lnav_section a:hover {
+	color:#000000;
+}
+.lnav_em {
+	font-weight:bold;
+	font-style:italic;
+}
+.lnav_highlight {
+	font-weight:bold;
+}
+.lnav_section .lnav_sale {
+	display:block;
+	color:#000000;
+	font-style:italic;
+	text-transform:uppercase;
+	position:relative;
+	padding-right:35px;
+}
+.lnav_section .lnav_sale:hover {
+	font-weight:bold;
+}
+.lnav_section .lnav_sale:after {
+	content:"";
+	display:block;
+	height:9px;
+	width:9px;
+	position:absolute;
+	right:25px;
+	top:50%;
+	margin-top:-5px;
+}
+#mainfooter_wrap {
+	float:left;
+	clear:both;
+	min-width:100%;
+	background-color:#3b4044;
+	background-image:-webkit-gradient(linear, left top, left bottom, from( #3b4044 ), to( #cccccc ));
+	background-image:-webkit-linear-gradient( #3b4044 , #cccccc );
+	background-image:-moz-linear-gradient( #3b4044 , #cccccc );
+	background-image:-ms-linear-gradient( #3b4044 , #cccccc );
+	background-image:-o-linear-gradient( #3b4044 , #cccccc );
+	background-image:linear-gradient( #3b4044 , #cccccc );
+}
+#footer {
+	z-index:2; 
+	float:left;
+	clear:both;
+	min-width:100%;
+	position:relative;
+	border-top:1px solid #3b4044;
+	box-shadow:0px 0px 10px rgba(0,0,0,.4);
+}
+#mainfooter {
+	width:1000px;
+	margin:0px auto;
+	padding-bottom:30px;
+}
+
+.footer_col {
+	float:left;
+	padding:0 0 0 30px;
+	margin:30px 30px 0 0;
+	color:#ffffff;
+}
+.footer_col:first-child {
+	border-left:0;
+}
+.footer_col#contact {
+	width:310px;
+}
+.footer_col#about_us {
+	width:200px;
+}
+.footer_col#hours {
+	width:310px;
+}
+.footer_col a {
+	text-decoration:none;
+	color:#ffffff;
+}
+.footer_col p {
+	margin-top:5px;
+	padding:0;
+}
+.footer_phone {
+	margin-top:15px;
+	font-size:17px;
+}
+.footer_email {
+	margin-top:25px;
+	font-weight:bold;
+}
+.ft_label {
+	display:block;
+	font-style:italic;
+	font-size:12px;
+	font-weight:normal;
+}
+.ft_head {
+	font-size:17px; 
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+}
+#about_us, #about_us h3 {
+	text-align:center;
+}
+#about_us ul {
+	list-style:none;
+	padding:0;
+	margin:10px 0;
+}
+#about_us li {
+	padding:1px 0;
+}
+.ft_subhead {
+	font-size:14px;
+	font-style:italic;
+	text-transform:uppercase;
+	margin-top:20px;
+	padding:0;
+}
+#hours {
+	float: right;
+}
+#hours, #hours h3 {
+	text-align:right;
+}
+#subfooter_wrap {
+	float:left;
+	clear:both;
+	min-width:100%;
+	background-color:#ffffff;
+}
+#subfooter {
+	width:1000px;
+	margin:0px auto;
+}
+#subfooter .subfooter_copy {
+	font-style:italic;
+}
+#subfooter a {
+	text-decoration:none;
+	color:#000000;
+}
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+.cf:after{
+	clear: both;
+}
+.cf {
+	*zoom: 1;
+}
+.account_button {
+	display:block;
+	cursor:pointer;
+	margin:0 auto;
+	padding:0 15px;
+	height:27px;
+	line-height:27px;
+	border:0;
+	color:#ffffff;
+	text-transform:uppercase;
+	background-color: #000000;
+}
+.account_form {
+	text-align:center;
+	color:#464646;
+	width:350px;
+	margin:30px auto 0 auto;
+	padding:30px 75px;
+	border:1px solid #bbbbbb;
+}
+.account_form h2 {
+	padding:0;
+	margin:15px auto;
+	font-size:16px;
+	line-height:1.25;
+	text-align:center;
+	border-bottom:0;
+}
+.account_form .accountform_row {
+	padding:10px 0;
+}
+.account_form .form_l {
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.account_form .form_r {
+	width:245px;
+	float:right;
+	text-align:left;
+}
+.account_form .form_l label {
+	height:50px;
+	line-height:50px;
+}
+.account_form .form_r .login_input {
+	height:26px;
+	margin-top:12px;
+	padding:5px;
+	border:1px solid #bbbbbb;
+	width:230px;
+}
+.account_form .forgot_pass {
+	color:#000000;
+	text-decoration:none;
+}
+.account_form .account_em {
+	color:#000000;
+	font-weight:bold;
+}
+.login_error {
+	text-align:center;
+	color:#ff0000;
+	font-weight:bold;
+	margin:20px 0 0 0;
+}
+.login_noerror {
+	text-align:center;
+	font-weight:bold;
+	margin:20px 0 0 0;
+}
+#error_box {
+	padding-top:10px;
+}
+.login_info {
+	width:600px;
+	margin:10px auto 0 auto;
+	text-align:center;
+}
+
+
+
+
